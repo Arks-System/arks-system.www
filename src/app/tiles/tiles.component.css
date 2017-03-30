@@ -1,7 +1,6 @@
 ul.tiles {
   display: flex;
 
-  list-style-image: none;
   flex-direction: row;
   flex-wrap: wrap;
 
@@ -11,10 +10,15 @@ ul.tiles {
   margin: 0px;
   list-style: none;
 }
-
- ul.tiles li {
+ul.tiles a {
+  display: flex;
   border: #000 1px solid;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 200px;
   margin: 5px;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: clip;
+  justify-content: center;
 }
