@@ -1,5 +1,6 @@
 <ul class="tiles">
   <li *ngFor="let link of links">
-    <a href="{{link.href}}">{{link.name}}</a>
+    <a *ngIf="link.href" href="{{link.href}}">{{link.name}}</a>
+    <a *ngIf="link.routerLink" routerLink="{{link.routerLink}}">{{link.name}}</a>
   </li>
 </ul>
