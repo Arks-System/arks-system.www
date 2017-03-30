@@ -1,5 +1,5 @@
-<ul>
-  <li>
-    
+<ul class="tiles">
+  <li *ngFor="let link of links">
+    <a href="{{link.href}}">{{link.name}}</a>
   </li>
 </ul>
