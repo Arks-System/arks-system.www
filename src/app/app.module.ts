@@ -26,6 +26,10 @@ import { ToolComponent } from './tool/tool.component';
         component: ArchiveComponent
       },
       {
+        path: 'tool',
+        component: ToolComponent
+      },
+      {
         path: '',
         component: TilesComponent,
         pathMatch: 'full'

@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./archive.component.css']
 })
 export class ArchiveComponent implements OnInit {
-  public links = [];
+  public links = [
+    'link1',
+    'link2'
+  ];
   constructor() { }
 
   ngOnInit() {
