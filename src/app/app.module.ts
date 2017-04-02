@@ -10,13 +10,15 @@ import { ArchiveComponent } from './archive/archive.component';
 
 import { ArchiveService } from './archive.service';
 import { ToolComponent } from './tool/tool.component';
+import { RecruitComponent } from './recruit/recruit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TilesComponent,
     ArchiveComponent,
-    ToolComponent
+    ToolComponent,
+    RecruitComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +30,10 @@ import { ToolComponent } from './tool/tool.component';
       {
         path: 'tool',
         component: ToolComponent
+      },
+      {
+        path: 'recruit',
+        component: RecruitComponent
       },
       {
         path: '',
