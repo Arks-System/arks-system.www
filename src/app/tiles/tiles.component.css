@@ -7,18 +7,25 @@ ul.tiles {
   justify-content: space-around;
 
   padding: 0px;
-  margin: 0px;
+  margin: 0px auto;
   list-style: none;
+  width: 30%;
 }
 ul.tiles a {
   display: flex;
-  border: #000 1px solid;
+  border: #FFF 5px solid;
+  line-height: 100px;
   height: 100px;
-  width: 200px;
+  width: 15em;
   margin: 5px;
 
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: clip;
   justify-content: center;
+
+  background: #337733;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 2em;
 }
