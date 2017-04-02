@@ -9,8 +9,7 @@ export class TilesComponent implements OnInit {
   links = [
     {name: 'Arks-System Tool', route: '/tool'},
     {name: 'La team', route: '/team'},
-    {name: 'Recrutement', route: '/recruit'},
-    {name: 'Archives', route: '/archive'}
+    {name: 'Recrutement', route: '/recruit'}
   ];
   public constructor() {
   }

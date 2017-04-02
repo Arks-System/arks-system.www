@@ -6,9 +6,6 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { TilesComponent } from './tiles/tiles.component';
-import { ArchiveComponent } from './archive/archive.component';
-
-import { ArchiveService } from './archive.service';
 import { ToolComponent } from './tool/tool.component';
 import { RecruitComponent } from './recruit/recruit.component';
 import { TeamComponent } from './team/team.component';
@@ -17,7 +14,6 @@ import { TeamComponent } from './team/team.component';
   declarations: [
     AppComponent,
     TilesComponent,
-    ArchiveComponent,
     ToolComponent,
     RecruitComponent,
     TeamComponent
@@ -25,10 +21,6 @@ import { TeamComponent } from './team/team.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {
-        path: 'archive',
-        component: ArchiveComponent
-      },
       {
         path: 'tool',
         component: ToolComponent
@@ -56,7 +48,6 @@ import { TeamComponent } from './team/team.component';
     HttpModule
   ],
   providers: [
-    ArchiveService
   ],
   bootstrap: [AppComponent]
 })
