@@ -1,11 +1,15 @@
-<h1 class="title">
+<h1>
   <a routerLink="/">Arks-System</a>
 </h1>
-<ul class="tiles">
-  <li *ngFor="let link of links">
-    <a routerLink="{{link.route}}" routerLinkActive="active">{{link.name}}</a>
-  </li>
-  <li>
-    <a href="https://steamcommunity.com/groups/Arks-System">Steam Community</a>
-  </li>
-</ul>
+<nav>
+  <ul>
+    <li *ngFor="let link of links">
+      <a routerLink="{{link.route}}" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        {{link.name}}
+      </a>
+    </li>
+    <li>
+      <a href="https://steamcommunity.com/groups/Arks-System">Steam Community</a>
+    </li>
+  </ul>
+</nav>

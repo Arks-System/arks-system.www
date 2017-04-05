@@ -13,6 +13,7 @@ body {
   color: #000;
 
   font-family: Droid Serif;
+  /*font-family: Open Sans;*/
   max-width: 800px;
   margin: 0px auto;
 }
@@ -22,8 +23,30 @@ img {
 
 h1 {
   font-variant: small-caps;
-  font-size: 3em;
+  font-size: 36pt;
 }
-/*h2 {
+h2 {
+  font-size: 24pt;
   font-variant: small-caps;
+}
+p {
+  text-align: justify;
+  text-justify: distribute;
+}
+/*.loading {
+  color: #000;
+  background: #FF0;
+  border: 1px #FF0 solid;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 300px;
+  text-align: center;
+  
+  font-family: Monospace;
+  font-size: 2em;
 }*/
