@@ -1,14 +1,14 @@
-h1.title {
+h1 {
   margin: 5px;
   padding: 5px;
 
   /*font-size: 2em;*/
 }
-h1.title a {
+h1 a {
   color: #FFF;
   text-decoration: none;
 }
-ul.tiles {
+ul {
   display: flex;
 
   flex-direction: row;
@@ -20,7 +20,7 @@ ul.tiles {
   margin: 0px auto;
   list-style: none;
 }
-ul.tiles a {
+ul a {
   display: flex;
   border: #FFF 1px solid;
   border-radius: 5px;
@@ -40,9 +40,9 @@ ul.tiles a {
   text-decoration: none;
   font-size: 1em;
 }
-ul.tiles a:hover {
+ul a:hover {
   background: rgba(80, 140, 80, 1);
 }
-ul.tiles a.active {
+ul a.active {
   background: rgba(80, 180, 80, 1);
 }
