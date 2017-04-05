@@ -2,8 +2,12 @@
   border: 1px #FFF solid;
   border-radius: 15px;
   margin: 5px;
-  padding: 0px 20px;
+  padding: 0px 10px;
 
   background: #FFF;
   color: #000;
+  /*text-align: justify;
+  text-justify: distribute;*/
+  max-width: 800px;
+  min-width: 250px;
 }
