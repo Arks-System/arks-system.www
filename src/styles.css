@@ -13,6 +13,8 @@ body {
   color: #000;
 
   font-family: Droid Serif;
+  max-width: 800px;
+  margin: 0px auto;
 }
 img {
   border: 0px;
@@ -22,6 +24,6 @@ h1 {
   font-variant: small-caps;
   font-size: 3em;
 }
-h2 {
-  /*font-variant: small-caps;*/
-}
+/*h2 {
+  font-variant: small-caps;
+}*/
