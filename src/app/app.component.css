@@ -1,0 +1,9 @@
+.main {
+  border: 1px #FFF solid;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 0px 20px;
+
+  background: #FFF;
+  color: #000;
+}

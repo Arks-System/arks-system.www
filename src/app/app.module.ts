@@ -35,7 +35,7 @@ import { TeamComponent } from './team/team.component';
       },
       {
         path: '',
-        component: TilesComponent,
+        component: TeamComponent,
         pathMatch: 'full'
       }
       /*{

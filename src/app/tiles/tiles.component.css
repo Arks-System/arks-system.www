@@ -1,23 +1,33 @@
+h1.title {
+  margin: 5px;
+  padding: 5px;
+
+  /*font-size: 2em;*/
+}
+h1.title a {
+  color: #FFF;
+  text-decoration: none;
+}
 ul.tiles {
   display: flex;
 
   flex-direction: row;
   flex-wrap: wrap;
 
-  justify-content: space-around;
+  /*justify-content: space-around;*/
 
   padding: 0px;
   margin: 0px auto;
   list-style: none;
-  width: 30%;
 }
 ul.tiles a {
   display: flex;
-  border: #FFF 5px solid;
-  line-height: 100px;
-  height: 100px;
-  width: 15em;
+  border: #FFF 1px solid;
+  border-radius: 5px;
+  /*line-height: 100px;*/
+
   margin: 5px;
+  padding: 5px;
 
 	overflow: hidden;
 	white-space: nowrap;
@@ -28,8 +38,11 @@ ul.tiles a {
   background: rgba(80, 140, 80, 0.7);
   color: #FFF;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1em;
 }
 ul.tiles a:hover {
   background: rgba(80, 140, 80, 1);
+}
+ul.tiles a.active {
+  background: rgba(80, 180, 80, 1);
 }
