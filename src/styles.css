@@ -5,15 +5,15 @@
 }
 body {
   background-color: #000;
-  background-image: url("./assets/backgrounds/bg015blur.jpg");
+  background-image: url("./assets/backgrounds/bg_forest.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: #000;
 
-  font-family: Droid Serif;
-  /*font-family: Open Sans;*/
+  /*font-family: Droid Serif;*/
+  font-family: Open Sans;
   max-width: 800px;
   margin: 0px auto;
 }
@@ -22,16 +22,20 @@ img {
 }
 
 h1 {
+  font-family: Droid Serif;
   font-variant: small-caps;
   font-size: 36pt;
 }
 h2 {
   font-size: 24pt;
-  font-variant: small-caps;
+  /*font-variant: small-caps;*/
 }
 p {
   text-align: justify;
   text-justify: distribute;
+}
+.nobr {
+  white-space: nowrap;
 }
 /*.loading {
   color: #000;
