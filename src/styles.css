@@ -44,6 +44,9 @@ p {
   border-radius: 2px;
   padding: 0px 5px;
 }
+a {
+  color: #000;
+}
 /*.loading {
   color: #000;
   background: #FF0;
