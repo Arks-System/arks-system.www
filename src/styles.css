@@ -43,6 +43,7 @@ p {
   border: #A0A0A0 1px solid;
   border-radius: 2px;
   padding: 0px 5px;
+  white-space: nowrap;
 }
 a {
   color: #000;

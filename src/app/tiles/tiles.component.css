@@ -14,10 +14,11 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
 
-  /*justify-content: space-around;*/
+  /*justify-content: space-between;*/
 
   padding: 0px;
-  margin: 0px auto;
+  /*margin: 0px auto;*/
+  margin: 0px;
   list-style: none;
 }
 ul a {
@@ -45,4 +46,11 @@ ul a:hover {
 }
 ul a.active {
   background: rgba(80, 180, 80, 1);
+}
+@media not all and (min-width: 800px) {
+  ul {
+    display: flex;
+    
+    /*justify-content: space-between;*/
+  }
 }
