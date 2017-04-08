@@ -1,8 +1,8 @@
 .main {
-  border: 1px #FFF solid;
+  /*border: 1px #FFF solid;*/
   border-radius: 3px;
   margin: 15px 5px;
-  padding: 0px 15px;
+  padding: 1px 15px;
 
   background: #FFF;
   color: #000;

@@ -48,6 +48,24 @@ p {
 a {
   color: #000;
 }
+a.button {
+  display: block;
+  color: #000;
+  border: 1px #FFF solid;
+  border-radius: 15px;
+  margin: 0px auto;
+  padding: 10px;
+  min-width: 250px;
+  text-decoration: none;
+  text-align: center;
+}
+.green {
+  background: rgba(80, 140, 80, 0.7);
+}
+.green:hover {
+  background: rgba(80, 140, 80, 1);
+}
+
 /*.loading {
   color: #000;
   background: #FF0;
