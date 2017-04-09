@@ -60,7 +60,13 @@ a.button {
 .green:hover {
   background: rgba(80, 140, 80, 1);
 }
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 
+  transform: translate(-50%, -50%);
+}
 /*.loading {
   color: #000;
   background: #FF0;

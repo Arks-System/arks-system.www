@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpModule, JsonpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
@@ -9,6 +9,9 @@ import { TilesComponent } from './tiles/tiles.component';
 import { ToolComponent } from './tool/tool.component';
 import { RecruitComponent } from './recruit/recruit.component';
 import { TeamComponent } from './team/team.component';
+import { ArchiveComponent } from './archive/archive.component';
+
+import { ArchiveService } from './archive.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,8 @@ import { TeamComponent } from './team/team.component';
     TilesComponent,
     ToolComponent,
     RecruitComponent,
-    TeamComponent
+    TeamComponent,
+    ArchiveComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +38,10 @@ import { TeamComponent } from './team/team.component';
         component: RecruitComponent
       },
       {
+        path: 'archive',
+        component: ArchiveComponent
+      },
+      {
         path: '',
         component: TeamComponent,
         pathMatch: 'full'
@@ -45,9 +53,11 @@ import { TeamComponent } from './team/team.component';
       }*/
     ]),
     FormsModule,
-    HttpModule
+    HttpModule,
+    JsonpModule
   ],
   providers: [
+    ArchiveService
   ],
   bootstrap: [AppComponent]
 })
