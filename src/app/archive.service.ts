@@ -9,7 +9,7 @@ import 'rxjs/add/operator/catch';
 
 @Injectable()
 export class ArchiveService {
-  private archiveUrl = 'https://arks-system.eu/updates.php';
+  private archiveUrl = 'https://archive.arks-system.eu/updates.php';
   constructor(private http: Http) {
 
   }
