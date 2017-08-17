@@ -10,3 +10,7 @@
   text-decoration: none;
   text-align: center;
 }
+.screenshot {
+  margin: 5px auto;
+  display: block;
+}
