@@ -12,6 +12,7 @@ import { TeamComponent } from './team/team.component';
 import { ArchiveComponent } from './archive/archive.component';
 
 import { ArchiveService } from './archive.service';
+import { DiscordComponent } from './discord/discord.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ArchiveService } from './archive.service';
     ToolComponent,
     RecruitComponent,
     TeamComponent,
-    ArchiveComponent
+    ArchiveComponent,
+    DiscordComponent
   ],
   imports: [
     BrowserModule,
@@ -42,15 +44,15 @@ import { ArchiveService } from './archive.service';
         component: ArchiveComponent
       },
       {
+        path: 'discord',
+        component: DiscordComponent,
+        pathMatch: 'full'
+      },
+      {
         path: '',
         component: TeamComponent,
         pathMatch: 'full'
       }
-      /*{
-        path: '',
-        redirectTo: '/tiles',
-        pathMatch: 'full'
-      }*/
     ]),
     FormsModule,
     HttpModule,

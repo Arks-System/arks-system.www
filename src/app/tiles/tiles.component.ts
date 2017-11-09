@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class TilesComponent implements OnInit {
   links = [
     {name: 'Recrutement', route: '/recruit'},
+    {name: 'Discord', route: '/discord'},
     {name: 'Arks-System Tool', route: '/tool'},
     {name: 'Archives', route: '/archive'}
   ];
