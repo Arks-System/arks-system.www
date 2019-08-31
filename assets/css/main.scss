@@ -1,12 +1,74 @@
+@import "vars";
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: #000;
-    color: #fff;
-    font-family: 'Source Code Pro', monospace;
+    background-image: url("/assets/img/bg/forest.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    font-family: 'Raleway', sans-serif;
     margin: 0px;
+}
+
+section.head {
+    max-width: $max_width;
+    margin: 0px auto;
+    border-radius: $border_radius;
+
+    nav.menu {
+        // background: white;
+        padding: 5px 0px;
+
+        a.home {
+            // display: inline-block;
+
+            img {
+                height: 8em;
+            }
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            padding: 0px;
+            margin: 0px;
+
+            li a {
+                padding: 5px;
+                text-decoration: none;
+                color: white;
+                font-size: 1.25em;
+                label {
+                    cursor: pointer;
+                }
+            }
+
+            li:not(:last-child) {
+                padding-right: 15px;
+            }
+        }
+    }
+}
+
+section.container {
+    margin: 10px auto;
+    max-width: $max_width;
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: $border_radius;
+
+    & > h2:first-child {
+        margin-top: 0px;
+    }
+
+    p {
+        padding-left: 15px;
+    }
 }
 
 @import 'responsive';

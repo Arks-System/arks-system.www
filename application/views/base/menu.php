@@ -1,11 +1,31 @@
 <ul class="menu">
     <li>
+        <a href="<?=base_url()?>">
+            <span class="icon home"></span> <label>Accueil</label>
+        </a>
+    </li>
+    <li>
+        <a href="<?=base_url("recrutement")?>">
+            <span class="icon group"></span> <label>Recrutement</label>
+        </a>
+    </li>
+    <li>
+        <a href="<?=base_url("discord")?>">
+            <span class="icon discord"></span> <label>Discord</label>
+        </a>
+    </li>
+    <li>
+        <a href="<?=base_url("arks-system_tool")?>">
+            <span class="icon windows"></span> <label>Arks-System Tool</label>
+        </a>
+    </li>
+    <li>
         <a href="https://blog.arks-system.eu">
             <span class="icon newspaper"></span> <label>Blog</label>
         </a>
     </li>
     <li>
-        <a href="https://twitter.com/Arks-System">
+        <a href="https://twitter.com/ArksSystem">
             <span class="icon twitter"></span> <label>Twitter</label>
         </a>
     </li>

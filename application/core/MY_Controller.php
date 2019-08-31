@@ -13,5 +13,7 @@ class MY_Controller extends CI_Controller
 			$this->load->driver('cache', array('adapter' => 'dummy', 'backup' => 'file'));
 		else
 			$this->load->driver('cache', array('adapter' => 'apc', 'backup' => 'file'));
+
+		$this->_data["title"] = "Arks-System";
 	}
 }
