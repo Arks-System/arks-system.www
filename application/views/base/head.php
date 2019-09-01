@@ -2,14 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?=$title?></title>
+    <title><?=$title?? $this->config->item("web_title")?></title>
 
     <meta name="description" content="Team francophone sur PSO2 JP"/>
     <meta name="keywords" content="Arks-System, Arks, System, PSO2, Phantasy, Star, Online, SEGA, Ship, Team, Francophone, Fr, Française"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Lato|Major+Mono+Display|Merriweather|Montserrat|Noto+Serif+SC|Raleway|Roboto|Roboto+Condensed|Roboto+Mono|Sarabun|Source+Code+Pro');
+        @import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,500,600');
 
         @font-face {
             font-family: 'arks-system-icons';

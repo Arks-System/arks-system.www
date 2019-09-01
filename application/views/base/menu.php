@@ -15,7 +15,7 @@
         </a>
     </li>
     <li>
-        <a href="<?=base_url("arks-system_tool")?>">
+        <a href="https://github.com/Arks-System/Arks-SystemTool" rel="nofollow">
             <span class="icon windows"></span> <label>Arks-System Tool</label>
         </a>
     </li>

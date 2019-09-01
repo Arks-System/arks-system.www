@@ -14,6 +14,6 @@ class MY_Controller extends CI_Controller
 		else
 			$this->load->driver('cache', array('adapter' => 'apc', 'backup' => 'file'));
 
-		$this->_data["title"] = "Arks-System";
+		$this->_data["title"] = $this->config->item("web_title");
 	}
 }

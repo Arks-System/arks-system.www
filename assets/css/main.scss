@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    // transition: all .1s linear;
 }
 
 body {
@@ -42,6 +43,11 @@ section.head {
                 text-decoration: none;
                 color: white;
                 font-size: 1.25em;
+
+                &:hover .icon {
+                    transition: color .6s ease;
+                    color: lightskyblue;
+                }
                 label {
                     cursor: pointer;
                 }
@@ -66,10 +72,53 @@ section.container {
         margin-top: 0px;
     }
 
+    a {
+        color: black;
+        font-weight: 500;
+    }
+
     p {
-        padding-left: 15px;
+        line-height: 1.4em;
+        margin: 10px 0px 10px 15px;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-family: "Lato", sans-serif;
+        margin-bottom: 0.5em;
+    }
+
+    h2 {
+        font-weight: bolder;
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+
+    .highlight {
+        display: inline;
+        background: #f0f0f0;
+        border: 1px solid #a0a0a0;
+        border-radius: 2px;
+        padding: 0 5px;
+        white-space: nowrap;
+        font-size: .9em;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    ul li,
+    ol li {
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
 }
 
+@import 'discord';
+@import 'recruit';
 @import 'responsive';
 @import 'icons';
