@@ -10,6 +10,8 @@ class Home extends MY_Controller
 
 	public function index()
 	{
+		$this->_data["canon"] = base_url();
+
 		$this->load->view('base/head', $this->_data);
 		$this->load->view('home/index', $this->_data);
 		$this->load->view('base/footer', $this->_data);

@@ -8,6 +8,12 @@
     <meta name="keywords" content="Arks-System, Arks, System, PSO2, Phantasy, Star, Online, SEGA, Ship, Team, Francophone, Fr, Française"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <?php if (isset($canon) && $canon != ""): ?>
+    <link rel="canonical" href="<?=$canon?>" />
+    <?php else: ?>
+    <meta name="robots" content="noindex,nofollow"/>
+    <?php endif; ?>
+
     <style>
         @import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,500,600');
 
@@ -26,12 +32,9 @@
     <link href="/assets/dist/css/main.css" rel="stylesheet"/>
 </head>
 <body>
-<div id="particles-js"></div>
-
 <section class="head">
     <nav class="menu">
         <a href="<?=base_url()?>" class="home">
-            <!-- <span class="icon home"></span> arks-system -->
             <img src="<?=base_url("assets/svg/long.svg")?>" />
         </a>
         <?php $this->load->view("base/menu"); ?>

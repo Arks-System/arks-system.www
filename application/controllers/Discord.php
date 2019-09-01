@@ -11,6 +11,8 @@ class Discord extends MY_Controller
 
 	public function index()
 	{
+		$this->_data["canon"] = base_url("discord");
+
 		$this->load->view('base/head', $this->_data);
 		$this->load->view('discord/index', $this->_data);
 		$this->load->view('base/footer', $this->_data);

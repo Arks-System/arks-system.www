@@ -11,6 +11,8 @@ class Recruit extends MY_Controller
 
 	public function index()
 	{
+		$this->_data["canon"] = base_url("recrutement");
+
 		$this->load->view('base/head', $this->_data);
 		$this->load->view('recruit/index', $this->_data);
 		$this->load->view('base/footer', $this->_data);
