@@ -71,10 +71,11 @@
 
 <main>
 	<section class="container">
-		<h2><?=$heading?></h2>
+		<h2>Page non trouvé !</h2>
+
 		<p>
-			<?=$message?>
-		<p>
+			Le Rappy que vous cherchez se trouve dans un autre Ship.
+		</p>
 	</section>
 </main>
 <footer>
