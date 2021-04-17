@@ -52,11 +52,6 @@
         </a>
     </li>
     <li>
-        <a href="https://github.com/Arks-System/Arks-SystemTool" rel="nofollow">
-            <span class="icon windows"></span> <label>Arks-System Tool</label>
-        </a>
-    </li>
-    <li>
         <a href="https://blog.arks-system.eu">
             <span class="icon newspaper"></span> <label>Blog</label>
         </a>
