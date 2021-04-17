@@ -94,9 +94,10 @@ gulp.task('default', gulp.series('clean', (done) => {
     done();
 }, "static", "sass", "scripts"));
 
-gulp.task('prod', gulp.series('clean', () => {
+gulp.task('prod', gulp.series('clean', (done) => {
     config.production = true;
     gulp.series('default');
+    done();
 }, "default"));
 
 gulp.task('watch', gulp.series((done) => {
