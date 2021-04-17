@@ -508,8 +508,11 @@
         {
           "ligatures": "compass, direction",
           "name": "compass",
-          "order": 0,
-          "id": 74
+          "order": 140,
+          "id": 74,
+          "prevSize": 32,
+          "code": 59721,
+          "tempChar": ""
         },
         {
           "ligatures": "compass2, direction2",
@@ -776,7 +779,7 @@
           "id": 114,
           "prevSize": 32,
           "code": 59761,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "users, group",
@@ -785,7 +788,7 @@
           "id": 115,
           "prevSize": 32,
           "code": 59762,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "user-plus, user2",
@@ -1369,8 +1372,11 @@
         {
           "ligatures": "earth, globe2",
           "name": "earth",
-          "order": 0,
-          "id": 203
+          "order": 141,
+          "id": 203,
+          "prevSize": 32,
+          "code": 59850,
+          "tempChar": ""
         },
         {
           "ligatures": "link, chain",
@@ -2723,7 +2729,7 @@
           "id": 407,
           "prevSize": 32,
           "code": 60054,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -2768,7 +2774,7 @@
           "id": 414,
           "prevSize": 32,
           "code": 60061,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "youtube2, brand22",
@@ -2867,7 +2873,7 @@
           "id": 430,
           "prevSize": 32,
           "code": 60077,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "dropbox, brand38",
@@ -2888,7 +2894,7 @@
           "id": 433,
           "prevSize": 32,
           "code": 60080,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "npm",
@@ -11144,7 +11150,7 @@
           "prevSize": 32,
           "code": 59649,
           "name": "nintendoswitch",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 102,
@@ -11680,7 +11686,7 @@
           "prevSize": 32,
           "code": 59650,
           "name": "playstation4",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 235,
@@ -11836,7 +11842,7 @@
           "prevSize": 32,
           "code": 59651,
           "name": "playstation",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 273,
@@ -12096,7 +12102,7 @@
           "prevSize": 32,
           "code": 59653,
           "name": "windows",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 337,
@@ -12356,7 +12362,7 @@
           "prevSize": 32,
           "code": 59654,
           "name": "discord",
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "id": 401,

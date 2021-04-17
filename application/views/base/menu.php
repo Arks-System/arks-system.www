@@ -15,8 +15,8 @@
         </a>
     </li>
     <li>
-        <a href="https://github.com/Arks-System/Arks-SystemTool" rel="nofollow">
-            <span class="icon windows"></span> <label>Arks-System Tool</label>
+        <a href="<?=base_url("global")?>">
+            <span class="icon global"></span> <label>PSO2 Global</label>
         </a>
     </li>
     <li>
@@ -25,7 +25,7 @@
         </a>
     </li>
     <li>
-        <a href="https://twitter.com/ArksSystem">
+        <a href="https://twitter.com/ArksSystem" target="_blank">
             <span class="icon twitter"></span> <label>Twitter</label>
         </a>
     </li>
