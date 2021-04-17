@@ -18,7 +18,7 @@
         Nous sommes vraiment confiant que l'alliance Ames de Pioneer saura vous accueillir chaleureusement et vous permettra de vous amuser encore plus sur le jeu.
     </p>
     <ul>
-        <li><a href="https://discord.gg/DXyb5jH">Rejoindre le Discord de l'alliance Ames de Pioneer.</a></li>
+        <li><a href="https://discord.gg/DXyb5jH" rel="nofollow">Rejoindre le Discord de l'alliance Ames de Pioneer.</a></li>
     </ul>
 
     <div class="center">
