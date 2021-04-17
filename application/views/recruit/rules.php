@@ -8,7 +8,7 @@
     <li>Ne partagez pas d'informations personnelles;</li>
     <li>Poster du contenu (liens, images, symbol art) à caractère pornographique, gore ou illégal;</li>
     <li>Les propos racistes, incitant à la haine ou politiquement incorrect ne sont pas autorisé;</li>
-    <li>Le harcelement et les insultes avec une personne ou un groupe de personnes sont interdites;</li>
+    <li>Le harcèlement et les insultes avec une personne ou un groupe de personnes sont interdites;</li>
     <li>L'utilisation d'outils interdits est strictement interdite (plus d'information plus bas).</li>
 </ul>
 

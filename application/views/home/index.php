@@ -9,7 +9,7 @@
     </ul>
     <p>
         Si vous débutez le jeu nous vous recommandons fortement de jouer à la version globale de Phantasy Star Online 2, <a href="<?=base_url("global")?>">plus d'informations ici</a>.<br/>
-        Si vous avez déjà un compte sur la version japonaise de Phantasy Star Online 2 n'hésitez pas à consulter notre page de recrutement et notre Discord.
+        Si vous avez déjà un compte sur la version japonaise de Phantasy Star Online 2 n'hésitez pas à consulter notre page de <a href="<?=base_url("recrutement")?>">recrutement</a> et notre <a href="<?=base_url("discord")?>">Discord</a>.
     </p>
 
     <h2>Qui sommes-nous ?</h2>

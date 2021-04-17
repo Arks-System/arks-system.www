@@ -17,7 +17,7 @@
 </p>
 <ul>
     <li>Les lanceurs alternatif;</li>
-    <li>Simulateurs de dégats, de skill tree, d'affix (liens disponible sur Discord);</li>
+    <li>Simulateurs de dégâts, de skill tree, d'affix (liens disponible sur Discord);</li>
     <li>Les plugins de traductions;</li>
     <li>Les mods de textures et de models;</li>
     <li>Les shaders alternatif (ReShade, SweetFX...).</li>

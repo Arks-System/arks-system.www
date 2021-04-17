@@ -38,7 +38,7 @@
         <li>Recherchez à l'aide du menu <span class="highlight">Teams Currently Looking for Members</span>;</li>
         <li>Puis sélectionnez <span class="highlight">Display by Team Name</span></li>
         <li>Faites défiler la liste jusqu'à tomber sur <span class="highlight">Arks-System</span>;</li>
-        <li>Selectionnez <span class="highlight">Send Application to Team Master</span> pour postuler;</li>
+        <li>Sélectionnez <span class="highlight">Send Application to Team Master</span> pour postuler;</li>
         <li>Patientez...</li>
         <li>Bienvenue !</li>
     </ol>
