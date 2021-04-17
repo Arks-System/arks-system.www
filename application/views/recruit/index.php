@@ -4,22 +4,27 @@
     </h2>
 
     <p>
-        Pour rejoindre Arks-System il est nécessaire de remplir les prérequis suivants:
+        Pour rejoindre la team Arks-System il est nécessaire de remplir les prérequis suivants:
     </p>
 
     <ul>
+        <li>Jouer sur la version <span class="highlight">japonaise</span> de PSO2;</li>
         <li>Avoir un personnage sur le Ship 02 Ur (ウル);</li>
         <li>Ne pas faire partie d'une team.</li>
     </ul>
 
     <p>
-        En rejoignant la team vous acceptez <a routerLink="/">règles de la team</a>.
+        Si vous jouez sur la version globale (XBox, Steam, Epic) et non sur la version japonaise, nous vous recommandons de rejoindre notre partenaire Ames de Pioneer: <a href="<?=base_url("global")?>">plus d'informations ici</a>.<br/>
+        Vous allez être entres de bonne mains.
     </p>
 
     <p>
         Si vous faites partie d'une team il ne sera pas possible de vous envoyer un invitation ou de vous contacter au sujet de votre candidature.<br />
-        Un manageur traitera votre candidature au plus vite dans un maximum de 24 heures.
+        Un manageur traitera votre candidature au plus vite dans un maximum de 24 heures.<br/>
+        En postulant pour rejoindre la team vous acceptez règles de la team ci-dessous:
     </p>
+
+    <?php $this->load->view("recruit/rules"); ?>
 
     <h2>
         Demande in-game
@@ -41,4 +46,6 @@
     <div class="center">
         <a href="/assets/img/joinus.png" class="joinus"><img src="/assets/img/joinus.png"></a>
     </div>
+
+    <?php $this->load->view("recruit/forbidden_tools"); ?>
 </section>
