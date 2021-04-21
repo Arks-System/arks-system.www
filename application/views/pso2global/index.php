@@ -18,13 +18,14 @@
         Nous sommes vraiment confiant que l'alliance Ames de Pioneer saura vous accueillir chaleureusement et vous permettra de vous amuser encore plus sur le jeu.
     </p>
 
+    <div class="center">
+        <img class="adp-small" src="/assets/img/logo/adp.png" alt="Logo Ames de Pioneer">
+    </div>
+
     <iframe src="https://discord.com/widget?id=694170235946926162&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
     <ul>
         <li><a href="https://discord.gg/DXyb5jH" rel="nofollow" target="_blank">Rejoindre le Discord de l'alliance Ames de Pioneer.</a></li>
     </ul>
 
-    <div class="center">
-        <img class="adp-small" src="/assets/img/logo/adp.png" alt="Logo Ames de Pioneer">
-    </div>
 </section>
