@@ -17,6 +17,9 @@
         Cette alliance est présente depuis la dernière bêta ouverte de Phantasy Star Online 2 sur la version globale, est extrêmement active et accueillante. Nous vous recommandons de rejoindre leur Discord même si vous ne jouez pas sur le même Ship qu'eux.<br/>
         Nous sommes vraiment confiant que l'alliance Ames de Pioneer saura vous accueillir chaleureusement et vous permettra de vous amuser encore plus sur le jeu.
     </p>
+
+    <iframe src="https://discord.com/widget?id=694170235946926162&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
     <ul>
         <li><a href="https://discord.gg/DXyb5jH" rel="nofollow" target="_blank">Rejoindre le Discord de l'alliance Ames de Pioneer.</a></li>
     </ul>

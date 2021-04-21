@@ -11,7 +11,7 @@
         Toutes demandes de support doit se faire publiquement sur le channel <a href="https://discordapp.com/channels/318187257171279873/318189110789537793" target="_blank">#support</a> qui est accessible publiquement, le support par MP est interdit et vous sera refusé.
     </p>
 
-    <iframe src="https://discordapp.com/widget?id=318187257171279873&theme=dark" allowtransparency="true" frameborder="0"></iframe>
+    <iframe src="https://discordapp.com/widget?id=318187257171279873&theme=dark" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" allowtransparency="true" frameborder="0"></iframe>
 
     <h2>
         FAQ
