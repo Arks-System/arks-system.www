@@ -5,28 +5,23 @@
         </a>
     </li>
     <li>
-        <a href="<?=base_url("recrutement")?>">
-            <span class="icon group"></span> <label>Recrutement</label>
+        <a href="<?=base_url("memorial")?>">
+            <span class="icon newspaper"></span> <label>Mémorial</label>
         </a>
     </li>
     <li>
-        <a href="<?=base_url("discord")?>">
-            <span class="icon discord"></span> <label>Discord</label>
+        <a href="https://discord.gg/P2fTguK">
+            <span class="icon discord"></span> <label>Notre Discord</label>
         </a>
     </li>
     <li>
-        <a href="<?=base_url("global")?>">
-            <span class="icon global"></span> <label>PSO2 Global</label>
+        <a href="https://pso2fr.org" target="_blank">
+            <span class="icon discord"></span> <label>Discord PSO2FR</label>
         </a>
     </li>
     <li>
         <a href="https://blog.arks-system.eu">
             <span class="icon newspaper"></span> <label>Blog</label>
-        </a>
-    </li>
-    <li>
-        <a href="https://twitter.com/ArksSystem" target="_blank">
-            <span class="icon twitter"></span> <label>Twitter</label>
         </a>
     </li>
 </ul>
