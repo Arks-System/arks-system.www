@@ -16,7 +16,7 @@
     </li>
     <li>
         <a href="https://pso2fr.org" target="_blank">
-            <span class="icon discord"></span> <label>Discord PSO2FR</label>
+            <span class="icon global"></span> <label>PSO2FR.org</label>
         </a>
     </li>
     <li>
