@@ -1,1 +1,0 @@
-<a class="twitter-timeline" data-height="1050" data-theme="dark" data-link-color="#2B7BB9" style="display: none" href="https://twitter.com/arks-system?ref_src=twsrc%5Etfw">Tweets by arks-system</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

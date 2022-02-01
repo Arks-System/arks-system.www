@@ -53,6 +53,4 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route["global"]      = "pso2global/index";
-$route["discord"]     = "discord/index";
-$route["recrutement"] = "recruit/index";
+$route["memorial"] = "memorial/index";

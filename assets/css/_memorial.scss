@@ -1,0 +1,22 @@
+section.container.memorial div.screenshots {
+    div.gallery {
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+
+        a {
+            width: 160px;
+            height: 90px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            margin: 5px;
+        }
+        img {
+            display: inline-block;
+        }
+    }
+}
