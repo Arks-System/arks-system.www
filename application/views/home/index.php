@@ -4,7 +4,7 @@
     <h2>Qui sommes-nous ?</h2>
     <p>
         Nous sommes la team francophone Arks-System du <span class="highlight">Ship 02 Ur (ウル)</span> sur la version <span class="highlight">japonaise</span> de Phantasy Star Online 2. La team a été créé le 14 Août 2012, peu après le lancement du jeu au Japon.<br/>
-        Notre activité est aujourd'hui <a href="https://blog.arks-system.eu/?p=801">fortement diminué et restreinte</a>.
+        Notre activité est aujourd'hui <a href="https://blog.arks-system.eu/annonces/one-last-update/">fortement diminué et restreinte</a>.
     </p>
 
     <h2>Nos souvenirs</h2>
